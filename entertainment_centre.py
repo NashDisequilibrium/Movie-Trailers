@@ -1,12 +1,14 @@
 import fresh_tomatoes
 import media
 
-#Each of the movies is listed.
+#Each of the movies is listed. They are all instances of the class Movie, which can be found in media.py 
 
 citizen_kane = media.Movie("Citizen Kane 9/10",
                         "Kane seeks his moral redemption",
+						#image for movie is taken from Wikimedia
                         "http://upload.wikimedia.org/wikipedia/en/c/ce/Citizenkane.jpg",
-                        "https://www.youtube.com/watch?v=_1A_WUNQlKY")
+                        #movie trailers are pulled from youtube, see class in media.py 
+						"https://www.youtube.com/watch?v=_1A_WUNQlKY")
 
 faust = media.Movie("Faust 10/10",
                      "Faust's soul is wagered with Mephistopheles",
